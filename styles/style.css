@@ -148,10 +148,76 @@
 
 .techniques {
   width: 80%;
-  margin: 0 auto 100px;
-  padding: 100px auto 0;
-  border: 2px solid red;
+  margin: 100px auto 0;
 }
+
+.cards {
+  width: 920px;
+  display: flex;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  list-style-type:none;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.cards__item:nth-child(n+4):nth-child(-n+6) {
+  margin: 0;
+}
+.cards__item {
+  list-style-type:none;
+  width: 240px;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.cards__image {
+  width: 160px;
+  height: 160px;
+  margin: 60px 40px 43px;
+  border-radius: 50%;
+  background-size: cover;
+}
+
+.cards__title {
+  margin:0 auto 16px;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  padding: 0;
+}
+
+.cards__description {
+  line-height: 23px;
+  font-size: 18px;
+  font-weight: normal;
+  text-align: center;
+  margin: 0;
+}
+
+.cards__image_img_attention {
+  background-image: url(../images/cards-attention.png);
+}
+
+.cards__image_img_recall {
+  background-image: url(../images/cards-recall.png);
+}
+
+.cards__image_img_interliving {
+  background-image: url(../images/cards-interliving.png);
+}
+
+.cards__image_img_question {
+  background-image: url(../images/cards-question.png);
+}
+
+.cards__image_img_competence {
+  background-image: url(../images/cards-competence.png);
+}
+
 .table {
   width: 1100px;
   margin: 0 auto 100px;
