@@ -1,244 +1,49 @@
-@keyframes rotation {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.page {
-  min-width: 1100px;
-  max-width: 1600px;
-  margin: 0 auto;
-  font-family: 'Helvetica Neue', Arial, sans-serif;
-}
-
-.link:hover {
-  opacity: .5;
-  transition: .5s;
-}
-
-.header {
-  height: 100vh;
-  min-height: 600px;
-  max-height: 756px;
-  position: relative;
-  display: flex;
-  background-color: #f2f2f2;
-  align-items: center;
-  z-index: 1;
-}
-
-.logo {
-  width: 228px;
-  height: 32px;
-}
-
-.logo_place_header {
-  position: absolute;
-  top: 30px;
-  left: 64px;
-}
-
-.header__title {
-  width: 730px;
-  line-height: 96px;
-  font-size: 102px;
-  font-weight: 600;
-  margin:0 0 0 64px;
-}
-
-.header__subtitle {
-  position: absolute;
-  bottom: 30px;
-  left: 64px;
-  width: 388px;
-  line-height: 25px;
-  font-size: 18px;
-  font-weight: normal;
-  margin: 0;
-}
-
-.header__link {
-  text-decoration: none;
-  color: #2f80ed;
-}
-
-.header__main-illustration {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 765px;
-  height: 608px;
-  z-index: -1;
-  object-fit: cover;
-}
-
-.header__square-pic {
-  height: 568px;
-  width: 568px;
-  position: absolute;
-  top: 64px;
-  right: 0;
-  background-color: #2f80ed;
-  z-index: -2;
-}
-
-.rotation {
-  overflow: hidden;
-  animation: rotation 20s linear infinite;
-}
-
-.two-columns {
-  display: flex;
-  width: 80%;
-  min-width: 784px;
-  margin: 100px auto 0;
-  justify-content: space-between;
-}
-
-.two-columns__brief {
-  line-height: 1.2;
-  font-size: 18px;
-  width: 175px;
-  color: #2f80ed;
-  font-weight: normal;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-.two-columns__main-text {
-  width: 80%;
-  margin: 0;
-  min-width: 784px;
-}
-
-.two-columns__paragraph {
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
-  margin-top: 0;
-  margin-bottom: 30px;
-}
-
-.two-columns__paragraph:last-of-type {
-  margin-bottom: 0;
-}
-
-.two-columns__span-accent {
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: 600;
-}
 
 
-.section-title {
-  margin: 100px auto 20px;
-  text-align: center;
-  width: 60%;
-  line-height: 1.15;
-  font-size: 60px;
-  font-weight: 600;
-}
 
-.section-subtitle {
-  width: 60%;
-  margin: 0 auto;
-  text-align: center;
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
-}
 
-.techniques {
-  width: 80%;
-  margin: 100px auto 0;
-}
 
-.cards {
-  width: 920px;
-  display: flex;
-  margin: 0 auto;
-  flex-wrap: wrap;
-  list-style-type:none;
-  justify-content: space-between;
-  padding: 0;
-}
 
-.cards__item:nth-child(n+4):nth-child(-n+6) {
-  margin: 0;
-}
 
-.cards__item {
-  list-style-type:none;
-  width: 240px;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-}
 
-.cards__image {
-  width: 160px;
-  height: 160px;
-  margin: 60px 40px 43px;
-  border-radius: 50%;
-  background-size: cover;
-}
 
-.cards__title {
-  margin:0 auto 16px;
-  line-height: 1.15;
-  font-size: 24px;
-  font-weight: 600;
-  text-align: center;
-  padding: 0;
-}
 
-.cards__description {
-  line-height: 23px;
-  font-size: 18px;
-  font-weight: normal;
-  text-align: center;
-  margin: 0;
-}
 
-.cards__image_img_attention {
-  background-image: url(../images/cards-attention.png);
-}
 
-.cards__image_img_recall {
-  background-image: url(../images/cards-recall.png);
-}
 
-.cards__image_img_interliving {
-  background-image: url(../images/cards-interliving.png);
-}
 
-.cards__image_img_question {
-  background-image: url(../images/cards-question.png);
-}
 
-.cards__image_img_competence {
-  background-image: url(../images/cards-competence.png);
-}
 
-.video__iframes {
-  margin-top: 50px;
-  margin-bottom: -60px;
-  display: flex;
-  justify-content: center;
-}
 
-.video__iframe:first-child {
-  margin-right: 20px;
-}
 
-.oakley {
-  padding-top: 60px;
-  background-color: #f2f2f2;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .table {
   width: 1100px;
@@ -399,16 +204,9 @@
   z-index: -1;
 }
 
-.section-title_theme_dark {
-  color: white;
-  width: 60%;
-  margin: 0 auto 20px;
-}
 
-.section-subtitle_theme_dark {
-  color: white;
-  width: 60%;
-}
+
+
 
 .table_theme_dark {
   margin: 0 auto 0;
@@ -465,9 +263,7 @@
   flex-basis: 711px;
 }
 
-.logo_place_footer {
-  color: white;
- }
+
 
  .footer__author {
   margin: 18px 0 18px 0;
