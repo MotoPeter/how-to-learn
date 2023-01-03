@@ -14,6 +14,11 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
+.link:hover {
+  opacity: .5;
+  transition: .5s;
+}
+
 .header {
   height: 100vh;
   min-height: 600px;
@@ -164,6 +169,7 @@
 .cards__item:nth-child(n+4):nth-child(-n+6) {
   margin: 0;
 }
+
 .cards__item {
   list-style-type:none;
   width: 240px;
@@ -361,7 +367,6 @@
 .khan__book-pic {
   width: 620px;
   height: 608px;
-  overflow: visible;
   object-position: 0 top;
   object-fit: cover;
 }
@@ -415,6 +420,23 @@
   color: white;
   margin-right: 0;
   margin-top: 80px;
+}
+
+.resources__logo-zone {
+  margin: 80px auto 217px;
+  width: 1100px;
+  display: flex;
+  justify-content: center;
+}
+
+.resources__linc {
+  display: flex;
+  justify-content: center;
+}
+
+.resources__linc_logo {
+  width: 270px;
+  height: 38px;
 }
 
 
